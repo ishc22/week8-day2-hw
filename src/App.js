@@ -10,7 +10,7 @@ export default function App() {
     <>
       <Nav/>
       <div className='container bg-warning pb-5'>
-      <h1 className='text-center py-5'>Welcome to PokeInfo</h1>
+      <h1 className='text-center py-5'>Welcome to PokeInfo</h1> 
         <Routes>
             <Route path='/src/views/Pokemon.jsx' element={<Pokemon/>}/>
         </Routes>
